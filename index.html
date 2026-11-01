@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <div class="nav-bar">
+            <div class="logo">
+                Dastar<span>khwan</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#menu">Menu</a>
+                <a href="#story">Our Story</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#booking">Book</a>
+            </div>
+            <div class="book-table-btn">
+                <a href="#booking">Book a Table</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+
+    <section class="hero-section">
+        <div class="hero-text">
+            <p id="hero-heading-one">from lahore to karachi, one shared flavour</p>
+            <p id="hero-heading-two">Every bite tastes like <br> <span>home</span>.</p>
+            <p id="hero-text">Meat slow-cooked over open coals, bread fresh from the tandoor, and <br> family spice blends kept secret for three generations ― served on <br> one table.</p>
+            <div class="hero-buttons">
+                <a  id="table-book-btn" href="#booking">Book Table</a>  <a id="view-menu-btn" href="#menu">View Menu</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Hero Section Footer -->
+
+    <section class="hero-footer">
+        <p>Open Daily: 5:00 PM till 1:00 AM</p>
+        <p>MM Alam Road, Lahore</p>
+        <p>Private hall available for events</p>
+    </section>
+
+    <!-- Story Section -->
+
+    <section id="story"  class="story-section">
+        <div class="story-section-image">
+            <img src="seekh-kabab.jpg">
+        </div>
+        <div class="story-section-text">
+            <p id="eyebrow">OUR STORY</p>
+            <h2>From a mother's kitchen, now in your city.</h2>
+            <p id="story-text">Dastarkhwan began as a small street-corner dhaba, where the smell of the grill would call the whole neighbourhood over. We still do things the old way ― meat cooked slowly over wood coals, dough rolled by hand, and spice blends only our family knows. <br><br> We don't just serve food ― we lay out a gathering, where every guest feel like one of the family. </p>
+            <a href="#menu">See the full Menu</a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+
+    <section id="menu">
+        <p id="menu-eyebrow">Straight off the grill </p>
+        <h3 id="menu-heading">Our Signature Dishes</h3>
+        <div class="menu-section">
+            <div class="menu-card">
+                <img src="chicken-karahi.jpg">
+                <h3>Chicken Karahi</h3>
+                <p class="dish-description">Fresh tomato, green chilli, and ginger-garlic, cooked over the open flame in a traditional wok.</p>
+                <p class="price">Rs. 1,650</p>
+            </div>
+            <div class="menu-card">
+                <img src="biryani.jpg">
+                <h3>Sindhi Biryani</h3>
+                <p class="dish-description">Long-grain rice, a signature biryani spice mix, and meat slow-cooked on dum.</p>
+                <p class="price">Rs. 550</p>
+            </div>
+            <div class="menu-card">
+                <img src="seekh-kabab1.jpg">
+                <h3>Seekh Kebab</h3>
+                <p class="dish-description">Finely minced meat, hand-mixed with signature spices, grilled over hot coals.</p>
+                <p class="price">Rs. 450</p>
+            </div>
+            <div class="menu-card">
+                <img src="chai.jpg">
+                <h3>Doodh Patti Chai</h3>
+                <p class="dish-description">Milk and tea leaves simmered for hours, dhaba-style ― this isn't just tea, it's a ritual.</p>
+                <p class="price">Rs. 150</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+
+    <section id="gallery">
+        <p id="gallery-eyebrow">The colours of dastarkhwan</p>
+        <h3>A few Glimpses</h3>
+        <div class="gallery-section">
+            <div class="gallery-card">
+                <img src="roti.jpg">
+            </div>
+            <div class="gallery-card">
+                <img src="biryani1.jpg">
+            </div>
+            <div class="gallery-card">
+                <img src="kebab2.jpg">
+            </div>
+            <div class="gallery-card">
+                <img src="chai1.jpg">
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+
+    <section id="booking">
+        <p id="booking-eyebrow">Book a table</p>
+        <h2>Weekends fill up fast. <br> Reserve your spot ahead of time.</h2>
+        <div class="booking-section-details">
+            <label for="name"> <p>NAME</p>
+                <input type="text" placeholder="Enter Your Name" id="name"> <br>
+            </label>
+            <label for="date"> <p>DATE</p>
+                <input type="date" placeholder="dd/mm/yyyy" id="date">
+            </label>
+        </div>
+        <div class="guest">
+            <label for="guests"> <p>GUESTS</p>
+                <select name="guests-selection" id="guests">
+                    <option value="--SELECT--">--SELECT--</option>
+                    <option value="2 people">2 people</option>
+                    <option value="3 people">3 people</option>
+                    <option value="4 people">4 people</option>
+                    <option value="5+ people">5+ people</option>
+                </select> <br>
+            </label>
+             <a href="#">Confirm Booking</a>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    
+    <section class="footer">
+        <h3>Dastar<span>khwan</span></h3>
+        <p>MM Alam Road, Lahore • 0300 1234567 • hello@dastarkhwan.pk</p>
+        <p id="footer-ad">Open Daily: 5:00 PM till 1:00 AM</p>
+    </section>
+</body>
+</html>
